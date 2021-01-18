@@ -1,0 +1,126 @@
+/* font-family: 'Montez', cursive;  */
+body {
+  background-image: url("../images/background.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  margin: 0;
+}
+header {
+  background-color: rgb(247, 240, 240);
+  height: 50px;
+}
+.logo {
+  font-family: "Montez", cursive;
+  color: blue;
+  font-weight: bold;
+  font-size: 30px;
+}
+.sub-heading {
+  font-size: 12px;
+  margin: 0;
+  font-family: "Ubuntu Mono";
+}
+.header-btn {
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+.header-btn button {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  margin: 2px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+form input {
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    border: 0;
+    margin-bottom: 10px;    
+  }
+  form textarea {
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    border: 0;
+    margin-bottom: 10px;    
+  }
+form label {
+  font-family: "Ubuntu Mono";
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+form button {
+    background-color: rgb(50, 168, 82);
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border: 0;
+    width: fit-content;
+    align-self: center;
+}
+form button:not(.auto) {
+  background-color: rgb(50, 168, 82);
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+  border: 0;
+}
+
+/* Model Pop-up */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 20%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.model-title {
+  color: black;
+  font-size: 28px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.center-btn{
+    display: flex;
+    margin-left: 50%;
+    margin-top: 20%;
+}
+.center-btn button{
+    background-color: rgb(241, 204, 135);
+    border: 0;    
+    padding: 5px;
+    margin: 5px;
+    justify-content: center;
+}

@@ -1,0 +1,111 @@
+body{
+    background-color: #ffeedd;
+}
+header {
+    background-color: #ffeedd;
+    height: 50px;
+  }
+  .logo {
+    font-family: "Montez", cursive;
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .sub-heading {
+    font-size: 12px;
+    margin: 0;
+    font-family: "Ubuntu Mono";
+  }
+  .header-btn {
+    top: 0;
+    right: 0;
+    position: absolute;
+  }
+  .header-btn button {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin: 2px;
+  }
+  .posts {
+    display: flex;
+  flex-wrap: wrap;  
+  }
+  .post {
+    flex: 33%;
+    margin: 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+  }
+  .author{
+    float: left;
+    width: 100px;
+    background-color: white;
+    padding: 10px;
+    height: 80%;
+    font-weight: bold;
+    color: gray;
+  }
+  .author p{
+      margin-top:40%;
+  }
+  .contents{
+    float: left;
+    width: calc(100% - 250px);
+    background-color: rgb(240, 240, 240);
+    height: 100%;
+  }
+  .heading{
+      color: gray;
+  }
+  i{
+      cursor: pointer;
+      margin-right:10px;
+  }
+  .fa-ellipsis-h{
+      float: right;
+  }  
+  /* Model Pop-up */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  }
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 20%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .model-title {
+    color: black;
+    font-size: 22px;
+  }
+  .deletediv{
+      height:40px;
+  }
+  .deletediv button{
+      border: 0;
+      padding: 10px;
+      color: white;
+      width:100px;
+      cursor: pointer;
+  }

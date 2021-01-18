@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link rel="stylesheet" href="../styles/post.css"/>    
+    <script type="text/javascript" src="../scripts/post.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            Scribbler
+        </div>
+        <div class="sub-heading">Explore, Imagine, Create</div>
+        <span class="header-btn">
+            <button onclick="openPopup('Get Started', '../html/signup.html')">Sign Up</button>
+            <button onclick="openPopup('Welcome Back!', '../html/signin.html')">Sign In</button>
+        </span>
+    </header>
+    <div class="MainDiv">
+    <h1>Everything you should know</h1>    
+    <div class="head-line">
+        <div class="head-line-1">Shrishti Gupta</div>
+        <button onclick="MakeEditable()" class="head-line-2">Edit <i class="fa fa-edit"></i></button>
+    </div>
+    <div class="content-div">
+        Full of contents Full of contents Full of contents Full of contents Full of contents Full of contents Full of contents 
+        Full of contents Full of contents Full of contents Full of contents Full of contents Full of contents Full of contents 
+        Full of contents Full of contents Full of contents Full of contents Full of contents Full of contents Full of contents 
+    </div>
+    <button onclick="LikeThis()" class="head-line-2" style="float: left;margin-top:10px;"><i class="fa fa-thumbs-up"></i> Like</button>
+    <div id="like" style="float: left;margin-top:60px;margin-left:-60px;color: rgb(175, 172, 172);">Be the first one to like this</div>
+    <br/>
+    <div style="margin-top:10%;">
+        <textarea id="cmnt" rows="5" cols="20" placeholder="" style="width: 60%;margin-left:-80px;">Leave a comment...</textarea>
+        <button onclick="comment()" class="head-line-2" style="float: left;margin-top:5%;">Comment</button>
+        <span class="allcomments">
+
+        </span>
+    </div>
+</div>
+<div class="MainDiv-1" style="display: none;">    
+    <div class="head-line">        
+        <div class="head-line-1">Shrishti Gupta</div>
+        <button onclick="SaveEdit()" class="head-line-2">Save <i class="fa fa-save"></i></button>
+    </div>
+    <input type="text" value="Everything you should know"/><br/>
+    <textarea rows="10" cols="20">
+        Full of contents Full of contents Full of contents Full of contents Full of contents Full of contents Full of contents 
+        Full of contents Full of contents Full of contents Full of contents Full of contents Full of contents Full of contents 
+        Full of contents Full of contents Full of contents Full of contents Full of contents Full of contents Full of contents 
+
+    </textarea>
+</div>
+</body>
+</html>

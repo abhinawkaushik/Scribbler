@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Google Fonts file here -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css"/>
+    <script type="text/javascript" src="./scripts/index.js"></script>
+</head>
+
+<body onload="initModel()">
+    <!-- TODO: Include all your code for the header and home page here -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="model-title"></span>
+          <span class="close">&times;</span>
+          <hr>            
+          <p class="model-data"></p>
+        </div>
+      
+      </div>
+    <header>
+        <div class="logo">
+            Scribbler
+        </div>
+        <div class="sub-heading">Explore, Imagine, Create</div>
+        <span class="header-btn">
+            <button onclick="openPopup('Get Started', '../html/signup.html')">Sign Up</button>
+            <button onclick="openPopup('Welcome Back!', '../html/signin.html')">Sign In</button>
+        </span>
+    </header>
+    <span class="center-btn">
+        <button onclick="OpenPosts()">All Posts</button>
+        <button onclick="openPopup('Pen Your Post', '../html/createpost.html')">Create Post</button>
+    </span>
+</body>
+
+</html>
