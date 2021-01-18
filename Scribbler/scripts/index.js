@@ -42,5 +42,5 @@ function getHTML(filepath) {
     
   }
   function OpenPosts(){
-      window.location.href="../html/postslist.html";
+      window.location.replace("./html/postslist.html");
   }
